@@ -1,0 +1,27 @@
+{
+  "name": "whoopsmonitor-check-mariadb-connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "dev": "nodemon -L index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mariadb": "^2.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoopsmonitor/whoopsmonitor-check-mariadb-connect.git"
+  },
+  "author": "Daniel Rataj <daniel.rataj@centrum.cz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whoopsmonitor/whoopsmonitor-check-mariadb-connect/issues"
+  },
+  "homepage": "https://github.com/whoopsmonitor/whoopsmonitor-check-mariadb-connect#readme"
+}
